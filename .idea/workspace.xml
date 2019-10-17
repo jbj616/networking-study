@@ -2,30 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b935ce5-f4a2-43fe-b4f5-41ae290bc79e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/BuffedStreamEx02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/BuffedStremaEx01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/DataInputStreamEx01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/DataInputStreamEx02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/DataInputStreamEx03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/DataOutputStreamEx01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/DataOutputStreamEx02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/DataOutputStreamEx03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/DataStreamEx01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/PrintStreamEx01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/PushStreamEx01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilterStream/SystemEx01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/BufferedWriterEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/FileReaderEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/FileWriterEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/FileWriterEx02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/FileWriterEx03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/InputStreamReaderEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/LineNumberReaderEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/OutputStreamEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/OutputWriterEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/PrintWriterEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/PrintWriterEx02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/PushbackReaderEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/WriterEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterArrayStream/WriterEx02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InOutPutStream/BufferedReaderEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InOutPutStream/ConsoleEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InOutPutStream/ConsoleEx02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file02.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file03.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file321.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file_191.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/networking/META-INF/networking.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/networking/META-INF/networking.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/university.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/myFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file/myFile.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,16 +34,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FilterStream/PushStreamEx01.java">
+        <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/InputStreamReaderEx01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="315">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,10 +51,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FilterStream/DataOutputStreamEx01.java">
+        <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/FileReaderEx01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="120">
+              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/OutputStreamEx01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,10 +72,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FilterStream/DataOutputStreamEx02.java">
+        <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/LineNumberReaderEx01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="135">
+              <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,23 +84,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FilterStream/DataOutputStreamEx03.java">
+        <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/PushbackReaderEx01.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="91" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FilterStream/DataInputStreamEx01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="2" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,10 +96,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FilterStream/DataInputStreamEx02.java">
+        <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+            <state relative-caret-position="240">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,10 +117,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FilterStream/DataStreamEx01.java">
+        <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+            <state relative-caret-position="255">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,10 +129,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FilterStream/DataInputStreamEx03.java">
+        <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
+            <state relative-caret-position="195">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,19 +141,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FilterStream/SystemEx01.java">
+        <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Scanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2263" column="18" selection-start-line="2263" selection-start-column="18" selection-end-line="2263" selection-end-column="18" />
+            <state relative-caret-position="255">
+              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,6 +157,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -182,10 +181,35 @@
         <option value="$PROJECT_DIR$/src/FilterStream/DataStreamEx01.java" />
         <option value="$PROJECT_DIR$/src/FilterStream/DataInputStreamEx03.java" />
         <option value="$PROJECT_DIR$/src/FilterStream/SystemEx01.java" />
+        <option value="$PROJECT_DIR$/src/InOutPutStream/ConsoleEx01.java" />
+        <option value="$PROJECT_DIR$/src/InOutPutStream/BufferedReader.java" />
+        <option value="$PROJECT_DIR$/src/InOutPutStream/BufferedReaderEx01.java" />
+        <option value="$PROJECT_DIR$/src/InOutPutStream/ConsoleEx02.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/WriterEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/WriterEx02.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/OutputWriterEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/FileWriterEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/FileWriterEx02.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/FileWriterEx03.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/BufferedWriterEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/PrintWriterEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/PrintWriterEx02.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/InputStreamReader.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/InputStreamReaderEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/FileReaderEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/OuputStreamEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/OutputStreamEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/LineNumberReaderEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/PushbackReaderEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx02.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx03.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx01.java" />
+        <option value="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx02.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="726" />
     <option name="width" value="714" />
     <option name="height" value="900" />
@@ -199,7 +223,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,18 +239,13 @@
               <item name="networking-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="networking-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chaper02_Stream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="networking-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="networking-study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FilterStream" type="462c0819:PsiDirectoryNode" />
+              <item name="CharacterArrayStream" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -236,8 +254,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
@@ -252,13 +270,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SystemEx01">
-    <configuration name="DataInputStreamEx01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FilterStream.DataInputStreamEx01" />
+  <component name="RunManager" selected="Application.ByteArrayOutputStreamEx03">
+    <configuration name="ByteArrayInputStreamEx02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharacterArrayStream.ByteArrayInputStreamEx02" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FilterStream.*" />
+          <option name="PATTERN" value="CharacterArrayStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,12 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataInputStreamEx02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FilterStream.DataInputStreamEx02" />
+    <configuration name="ByteArrayInputStreamEx03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharacterArrayStream.ByteArrayInputStreamEx03" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FilterStream.*" />
+          <option name="PATTERN" value="CharacterArrayStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,12 +297,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataInputStreamEx03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FilterStream.DataInputStreamEx03" />
+    <configuration name="ByteArrayOutputStreamEx01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharacterArrayStream.ByteArrayOutputStreamEx01" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FilterStream.*" />
+          <option name="PATTERN" value="CharacterArrayStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,12 +310,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataStreamEx01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FilterStream.DataStreamEx01" />
+    <configuration name="ByteArrayOutputStreamEx02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharacterArrayStream.ByteArrayOutputStreamEx02" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FilterStream.*" />
+          <option name="PATTERN" value="CharacterArrayStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,12 +323,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemEx01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FilterStream.SystemEx01" />
+    <configuration name="ByteArrayOutputStreamEx03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharacterArrayStream.ByteArrayOutputStreamEx03" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FilterStream.*" />
+          <option name="PATTERN" value="CharacterArrayStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SystemEx01" />
-        <item itemvalue="Application.DataInputStreamEx03" />
-        <item itemvalue="Application.DataStreamEx01" />
-        <item itemvalue="Application.DataInputStreamEx02" />
-        <item itemvalue="Application.DataInputStreamEx01" />
+        <item itemvalue="Application.ByteArrayOutputStreamEx03" />
+        <item itemvalue="Application.ByteArrayOutputStreamEx02" />
+        <item itemvalue="Application.ByteArrayOutputStreamEx01" />
+        <item itemvalue="Application.ByteArrayInputStreamEx03" />
+        <item itemvalue="Application.ByteArrayInputStreamEx02" />
       </list>
     </recent_temporary>
   </component>
@@ -338,45 +356,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571137339181</updated>
-      <workItem from="1571223827034" duration="4848000" />
+      <workItem from="1571223827034" duration="9259000" />
+      <workItem from="1571312868170" duration="1798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4848000" />
+    <option name="totallyTimeSpent" value="11057000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="0" width="714" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12160229" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,13 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chaper02_Stream/SystemEx01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chaper02_Stream/SystemEx01.java" />
     <entry file="file://$PROJECT_DIR$/src/FilterStream/DataInputStreamEx03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -508,10 +522,220 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/InOutPutStream.java" />
     <entry file="file://$PROJECT_DIR$/src/FilterStream/SystemEx01.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InOutPutStream/ConsoleEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InOutPutStream/BufferedReaderEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream.java" />
+    <entry file="file://$PROJECT_DIR$/src/InOutPutStream/ConsoleEx02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/WriterEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/WriterEx02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/OutputWriterEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/FileWriterEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/FileWriterEx02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/FileWriterEx03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/BufferedWriterEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/PrintWriterEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/PrintWriterEx02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/InputStreamReaderEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/FileReaderEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/PushbackReaderEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/LineNumberReaderEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/OutputStreamEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayInputStreamEx03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -565,10 +789,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>networking</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
