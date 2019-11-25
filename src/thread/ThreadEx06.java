@@ -6,8 +6,8 @@ public class ThreadEx06 {
         Worker worker = new Worker();
         Thread thread = new Thread(worker, "Able");
         thread.start();
-        for (int i=0; i<3; i++)
-            worker.namePrint();
+        //for (int i=0; i<3; i++)
+            //worker.namePrint();
     }
 
 }

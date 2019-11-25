@@ -18,8 +18,8 @@ public class YieldEx01 extends Thread{
     }
 
     public static void main(String[] args) {
-        //String[] tmpArgs = {"false", "3", "did", "didnot"}; //withdout yielding
-        String[] tmpArgs = {"true", "3", "today", "yesterday", "tomorrow"}; //yield
+        String[] tmpArgs = {"false", "3", "did", "didnot"}; //withdout yielding
+        //String[] tmpArgs = {"true", "3", "today", "yesterday", "tomorrow"}; //yield
 
 
         times = Integer.parseInt(tmpArgs[1]);

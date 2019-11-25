@@ -13,12 +13,13 @@ public class CallbackUserInterface {
 
     public void calculateSum() {
         InstanceCallback instanceCallback = new InstanceCallback(number, this);
-        Thread thread = new Thread(instanceCallback);
+        Thread thread = new Thread(instanceCallback, "Hello");
         thread.start();
     }
 
     public void receiveResult(int result) {
         this.result = result;
+        System.out.println(Thread.currentThread().getName());
         System.out.println(this);
     }
 

@@ -9,6 +9,7 @@ public class JoinEx02 extends Thread {
 
         for (int i = 0; i < 10; i++) {
             result += Math.random();
+            System.out.println(Thread.currentThread().getName());
         }
 
         average = result / 10;
@@ -23,6 +24,7 @@ public class JoinEx02 extends Thread {
         thread.start();
         doSomething();
         try {
+
             thread.join();
             System.out.println("result is " + thread.getAverage());
         } catch (InterruptedException e) {

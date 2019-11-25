@@ -8,6 +8,7 @@ public class CallbackDigestUIEx01 {
         for (byte tmp: digest){
             result.append(tmp);
         }
+        System.out.println(Thread.currentThread().getName());
         System.out.println(result);
     }
 
@@ -16,7 +17,7 @@ public class CallbackDigestUIEx01 {
 
         for (String file: fileNames){
             CallbackEx01 callback = new CallbackEx01(file);
-            Thread thread = new Thread(callback);
+            Thread thread = new Thread(callback, "test");
             thread.start();
         }
 

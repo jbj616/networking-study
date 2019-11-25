@@ -10,7 +10,7 @@ import java.security.MessageDigest;
 public class DigestEx04 {
 
     public static void main(String[] args) throws Exception{
-        URL url = new URL("https://naver.com");
+        URL url = new URL("https://www.naver.com");
         FileOutputStream fileOutputStream = new FileOutputStream("file/digest.txt");
         copyFileWithDigest(url.openStream(), fileOutputStream);
         fileOutputStream.close();
@@ -30,6 +30,7 @@ public class DigestEx04 {
         }
         dout.flush();
 
+        System.out.println("htlleo");
         byte[] result = dout.getMessageDigest().digest();
         for (int i=0; i<result.length; i++){
             System.out.println(result[i]+" ");
