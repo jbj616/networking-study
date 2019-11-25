@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b935ce5-f4a2-43fe-b4f5-41ae290bc79e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/URL/EncoderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/URL/ProtocolTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/URL/QueryString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/URL/SourceViewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/URL/URLConnectionEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/URL/URLConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/URL/URLContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/URL/URLDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/URL/URLEquality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/URL/URLOpenStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/URL/URLSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http/MySimpleWebClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http/MySimpleWebServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,30 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/URL/URLConstructor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/URL/URLOpenStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/URL/SourceViewer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/URL/QueryString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="360">
               <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -136,6 +103,30 @@
                 <element signature="e#771#772#0" expanded="true" />
                 <element signature="e#807#808#0" expanded="true" />
                 <element signature="e#839#840#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/http/MySimpleWebServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/http/MySimpleWebClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/URL/URLEquality.java" />
         <option value="$PROJECT_DIR$/src/URL/EncoderTest.java" />
         <option value="$PROJECT_DIR$/src/URL/QueryString.java" />
+        <option value="$PROJECT_DIR$/src/http/MySimpleWebServer.java" />
+        <option value="$PROJECT_DIR$/src/http/MySimpleWebClient.java" />
       </list>
     </option>
   </component>
@@ -227,7 +220,7 @@
               <item name="networking-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="networking-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="URL" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueryString">
+  <component name="RunManager" selected="Application.MySimpleWebClient">
     <configuration name="EncoderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="URL.EncoderTest" />
       <module name="networking" />
@@ -275,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URL.QueryString" />
+    <configuration name="MySimpleWebClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="http.MySimpleWebClient" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="URL.*" />
+          <option name="PATTERN" value="http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,8 +281,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLContent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URL.URLContent" />
+    <configuration name="MySimpleWebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="http.MySimpleWebServer" />
+      <module name="networking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueryString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URL.QueryString" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
@@ -314,26 +320,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLSplitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="URL.URLSplitter" />
-      <module name="networking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="URL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MySimpleWebClient" />
+        <item itemvalue="Application.MySimpleWebServer" />
         <item itemvalue="Application.QueryString" />
         <item itemvalue="Application.EncoderTest" />
         <item itemvalue="Application.URLEquality" />
-        <item itemvalue="Application.URLSplitter" />
-        <item itemvalue="Application.URLContent" />
       </list>
     </recent_temporary>
   </component>
@@ -351,18 +344,18 @@
       <workItem from="1571312868170" duration="7789000" />
       <workItem from="1571748068404" duration="7356000" />
       <workItem from="1572235997137" duration="7079000" />
-      <workItem from="1574663508764" duration="4252000" />
+      <workItem from="1574663508764" duration="5305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35735000" />
+    <option name="totallyTimeSpent" value="36788000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="0" width="714" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19345239" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09298999" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -371,7 +364,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,30 +422,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/thread_syn/AverageByJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1326#1327#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread_syn/NotifyEx02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
-          <folding>
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11625">
@@ -826,7 +795,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/URL/QueryString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
+        <state relative-caret-position="360">
           <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -834,6 +803,26 @@
             <element signature="e#771#772#0" expanded="true" />
             <element signature="e#807#808#0" expanded="true" />
             <element signature="e#839#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/http/MySimpleWebServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/http/MySimpleWebClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
