@@ -13,7 +13,7 @@ public class MySimpleWebClient {
         BufferedReader bufferedReader = null;
         Socket socket = null;
 
-        socket = new Socket("www.google.com", 80);
+        socket = new Socket("localhost", 80);
         out = new OutputStreamWriter(socket.getOutputStream(), "UTF-8");
 
         bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream(), "UTF-8"));

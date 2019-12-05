@@ -29,6 +29,7 @@ public class Time {
 
         long differenceInMs = epoch1970ms - epoch1900ms;
         long differenceBetweenEpochs = differenceInMs/1000;
+        System.out.println(differenceInMs);
 
         Socket socket = null;
         try{
@@ -43,6 +44,7 @@ public class Time {
             }
 
             long secondsSince1970 = secondsSint1900 - differenceBetweenEpochs;
+
             long msSince1970 = secondsSince1970 * 1000;
             Date time = new Date(msSince1970);
 

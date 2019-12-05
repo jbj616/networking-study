@@ -9,11 +9,11 @@ public class DaytimeClient {
 
     public static void main(String[] args) throws Exception{
 
-        String hostname = "time.nist.gov";
+        String hostname = "localhost";
         Socket socket = null;
         try{
-            socket = new Socket("localhost", 13);
-            socket.setSoTimeout(150);
+            socket = new Socket(hostname, 13);
+            socket.setSoTimeout(15000);
 
             InputStream in = socket.getInputStream();
             InputStreamReader reader = new InputStreamReader(in, "ASCII");

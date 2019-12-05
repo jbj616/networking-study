@@ -12,7 +12,7 @@ public class SourceViewer {
         InputStream in = null;
 
         try{
-            URL u = new URL("www.naver.com");
+            URL u = new URL("https://www.naver.com");
             in = u.openStream();
 
             in = new BufferedInputStream(in);

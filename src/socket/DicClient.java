@@ -43,6 +43,7 @@ public class DicClient {
         writer.flush();
 
         for (String line = reader.readLine(); line!=null; line = reader.readLine()){
+            //System.out.println(line);
             if(line.startsWith("250 ")){
                 return;
             }else if(line.startsWith("552 ")){

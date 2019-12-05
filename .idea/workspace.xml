@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b935ce5-f4a2-43fe-b4f5-41ae290bc79e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/serverSocket/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serverSocket/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serverSocket/PooledDaytimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/CalenderEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/Daytime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/DaytimeClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/DaytimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/DicClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/LowPortScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/TimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/socket/TimeZoneEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serverSocket/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serverSocket/MultithreadedDaytimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serverSocket/RandomPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serverSocket/Redirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serverSocket/ServerSocketTimeout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serverSocket/SingleFileHTTPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/socket/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/socket/EchoServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/URL/SourceViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/URL/SourceViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/MySimpleWebClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/http/MySimpleWebClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/socket/DaytimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket/DaytimeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/socket/DicClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket/DicClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/socket/LowPortScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket/LowPortScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/socket/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/socket/DaytimeClient.java">
+        <entry file="file://$PROJECT_DIR$/src/socket/Daytime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="337">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,14 +44,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/serverSocket/EchoServer.java">
+        <entry file="file://$PROJECT_DIR$/src/socket/DicClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="63" column="1" selection-start-line="34" selection-start-column="31" selection-end-line="63" selection-end-column="1" />
+            <state relative-caret-position="286">
+              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1013#1014#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverSocket/PooledDaytimeServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-660">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/serverSocket/EchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="4" selection-start-line="4" selection-end-line="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,14 +79,74 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/socket/LowPortScanner.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverSocket/RandomPort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+            <state relative-caret-position="180">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverSocket/ServerSocketTimeout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverSocket/SingleFileHTTPServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="82" selection-start-line="82" selection-end-line="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+                <element signature="e#1894#1895#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/serverSocket/Redirector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/serverSocket/ClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -93,19 +167,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/thread_syn/yieldEx01.java" />
-        <option value="$PROJECT_DIR$/src/thread_syn/SleepingEx01.java" />
-        <option value="$PROJECT_DIR$/src/thread_syn/JoinEx01.java" />
-        <option value="$PROJECT_DIR$/src/thread_syn/JoinEx03.java" />
-        <option value="$PROJECT_DIR$/src/thread_syn/notifyEx01.java" />
-        <option value="$PROJECT_DIR$/src/thread_syn/NotifyEx01.java" />
-        <option value="$PROJECT_DIR$/src/thread_syn/NotifyEx02.java" />
-        <option value="$PROJECT_DIR$/src/thread_syn/NotifyEx03.java" />
         <option value="$PROJECT_DIR$/src/thread_syn/WaitNotifyAverage.java" />
         <option value="$PROJECT_DIR$/src/thread_syn/AverageByJoin.java" />
         <option value="$PROJECT_DIR$/src/thread_syn/DigitalClockSM.java" />
         <option value="$PROJECT_DIR$/src/thread_syn/Clock.java" />
-        <option value="$PROJECT_DIR$/src/test.java" />
         <option value="$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx02.java" />
         <option value="$PROJECT_DIR$/src/Digest/DigestEx04.java" />
         <option value="$PROJECT_DIR$/src/thread/ThreadEx06.java" />
@@ -120,29 +185,39 @@
         <option value="$PROJECT_DIR$/src/URL/ProtocolTester.java" />
         <option value="$PROJECT_DIR$/src/URL/URLConstructor.java" />
         <option value="$PROJECT_DIR$/src/URL/URLOpenStream.java" />
-        <option value="$PROJECT_DIR$/src/URL/SourceViewer.java" />
         <option value="$PROJECT_DIR$/src/URL/URLDownload.java" />
-        <option value="$PROJECT_DIR$/src/URL/URLConnectionEx.java" />
         <option value="$PROJECT_DIR$/src/URL/URLContent.java" />
         <option value="$PROJECT_DIR$/src/URL/URLSplitter.java" />
         <option value="$PROJECT_DIR$/src/URL/URLEquality.java" />
         <option value="$PROJECT_DIR$/src/URL/EncoderTest.java" />
         <option value="$PROJECT_DIR$/src/URL/QueryString.java" />
         <option value="$PROJECT_DIR$/src/http/MySimpleWebServer.java" />
-        <option value="$PROJECT_DIR$/src/http/MySimpleWebClient.java" />
         <option value="$PROJECT_DIR$/src/socket/DaytimeServer.java" />
-        <option value="$PROJECT_DIR$/src/socket/DaytimeClient.java" />
         <option value="$PROJECT_DIR$/src/socket/Daytime.java" />
         <option value="$PROJECT_DIR$/src/socket/TimeZoneEx.java" />
         <option value="$PROJECT_DIR$/src/socket/Calender.java" />
         <option value="$PROJECT_DIR$/src/socket/CalenderEx.java" />
-        <option value="$PROJECT_DIR$/src/socket/Time.java" />
         <option value="$PROJECT_DIR$/src/socket/TimeServer.java" />
-        <option value="$PROJECT_DIR$/src/socket/DicClient.java" />
         <option value="$PROJECT_DIR$/src/serverSocket/EchoClient.java" />
         <option value="$PROJECT_DIR$/src/serverSocket/PooledDaytimeServer.java" />
         <option value="$PROJECT_DIR$/src/serverSocket/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/URL/SourceViewer.java" />
+        <option value="$PROJECT_DIR$/src/URL/URLConnectionEx.java" />
+        <option value="$PROJECT_DIR$/src/http/MySimpleWebClient.java" />
+        <option value="$PROJECT_DIR$/src/socket/Time.java" />
+        <option value="$PROJECT_DIR$/src/socket/DicClient.java" />
         <option value="$PROJECT_DIR$/src/socket/LowPortScanner.java" />
+        <option value="$PROJECT_DIR$/src/socket/EchoServer.java" />
+        <option value="$PROJECT_DIR$/src/socket/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/socket/DaytimeClient.java" />
+        <option value="$PROJECT_DIR$/src/serverSocket/MultithreadedDaytimeServer.java" />
+        <option value="$PROJECT_DIR$/src/serverSocket/RandomPort.java" />
+        <option value="$PROJECT_DIR$/src/serverSocket/ServerSocketTimeout.java" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/serverSocket/SingleFileHTTPServer.java" />
+        <option value="$PROJECT_DIR$/src/serverSocket/Redirector.java" />
+        <option value="$PROJECT_DIR$/src/serverSocket/ClientTest.java" />
       </list>
     </option>
   </component>
@@ -160,8 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,12 +251,20 @@
               <item name="networking-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="networking-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="serverSocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="networking-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="networking-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="socket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,22 +293,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LowPortScanner">
-    <configuration name="DicClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="socket.DicClient" />
-      <module name="networking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serverSocket.EchoClient" />
+  <component name="RunManager" selected="Application.ClientTest">
+    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverSocket.ClientTest" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
@@ -239,8 +307,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serverSocket.EchoServer" />
+    <configuration name="RandomPort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverSocket.RandomPort" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
@@ -252,12 +320,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowPortScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="socket.LowPortScanner" />
+    <configuration name="Redirector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverSocket.Redirector" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="socket.*" />
+          <option name="PATTERN" value="serverSocket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,8 +333,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PooledDaytimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="serverSocket.PooledDaytimeServer" />
+    <configuration name="ServerSocketTimeout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverSocket.ServerSocketTimeout" />
+      <module name="networking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serverSocket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleFileHTTPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serverSocket.SingleFileHTTPServer" />
       <module name="networking" />
       <extension name="coverage">
         <pattern>
@@ -280,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LowPortScanner" />
-        <item itemvalue="Application.EchoServer" />
-        <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.PooledDaytimeServer" />
-        <item itemvalue="Application.DicClient" />
+        <item itemvalue="Application.ClientTest" />
+        <item itemvalue="Application.Redirector" />
+        <item itemvalue="Application.SingleFileHTTPServer" />
+        <item itemvalue="Application.ServerSocketTimeout" />
+        <item itemvalue="Application.RandomPort" />
       </list>
     </recent_temporary>
   </component>
@@ -303,18 +384,20 @@
       <workItem from="1571748068404" duration="7356000" />
       <workItem from="1572235997137" duration="7079000" />
       <workItem from="1574663508764" duration="10669000" />
-      <workItem from="1574908931696" duration="333000" />
+      <workItem from="1574908931696" duration="811000" />
+      <workItem from="1575261136157" duration="3377000" />
+      <workItem from="1575461286436" duration="7618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42485000" />
+    <option name="totallyTimeSpent" value="53958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="726" y="0" width="714" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19345239" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23363096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +406,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,74 +476,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CharacterArrayStream/ByteArrayOutputStreamEx02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/digest.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3730" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Digest/DigestEx04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ThreadEx03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ThreadEx04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ThreadEx05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread/ThreadEx06.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread_executor/ExecutorEx01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/thread_executor/ExecutorEx02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/thread_executor/ExecutorEx03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -552,50 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inetaddress/OReillyByName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inetaddress/MyAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inetaddress/GetByAddress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URL/ProtocolTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URL/URLConstructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -612,125 +587,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/URL/SourceViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/URL/URLDownload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URL/URLConnectionEx.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URL/URLContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URL/URLSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URL/URLEquality.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URL/EncoderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="60" lean-forward="true" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URL/QueryString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/http/MySimpleWebServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/http/MySimpleWebClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/socket/TimeServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/socket/DicClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/socket/Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -751,13 +611,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/socket/Daytime.java">
+    <entry file="file://$PROJECT_DIR$/src/serverSocket/EchoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="795">
+          <caret line="63" column="1" selection-start-line="34" selection-start-column="31" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inetaddress/OReillyByName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inetaddress/MyAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URL/EncoderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URL/URLContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URL/URLSplitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/http/MySimpleWebServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URL/ProtocolTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URL/QueryString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URL/SourceViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URL/URLConstructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URL/URLConnectionEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/http/MySimpleWebClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URL/URLEquality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -771,42 +761,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serverSocket/PooledDaytimeServer.java">
+    <entry file="file://$PROJECT_DIR$/src/socket/TimeServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="300">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/socket/DaytimeClient.java">
+    <entry file="file://$PROJECT_DIR$/src/socket/EchoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="45">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serverSocket/EchoServer.java">
+    <entry file="file://$PROJECT_DIR$/src/socket/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="63" column="1" selection-start-line="34" selection-start-column="31" selection-end-line="63" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/serverSocket/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="137">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -816,7 +794,139 @@
     <entry file="file://$PROJECT_DIR$/src/socket/LowPortScanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket/DaytimeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverSocket/MultithreadedDaytimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket/Daytime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/socket/DicClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverSocket/PooledDaytimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverSocket/EchoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverSocket/RandomPort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverSocket/ServerSocketTimeout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverSocket/SingleFileHTTPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="82" selection-start-line="82" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverSocket/Redirector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverSocket/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
