@@ -1,11 +1,14 @@
 package socket;
 
 import java.util.Calendar;
+import java.util.TimeZone;
 
 public class CalenderEx {
 
     public static void main(String[] args) {
         Calendar calender = Calendar.getInstance();
+        TimeZone timeZone = TimeZone.getTimeZone("GMT");
+        calender.setTimeZone(timeZone);
 
         int year = calender.get(Calendar.YEAR);
         int month = calender.get(Calendar.MONTH)+1;

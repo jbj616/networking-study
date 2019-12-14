@@ -1,5 +1,6 @@
 package socket;
 
+import java.util.Date;
 import java.util.TimeZone;
 
 public class TimeZoneEx {
@@ -12,6 +13,7 @@ public class TimeZoneEx {
         System.out.println(seoul);
         System.out.println(tokyo);
         System.out.println(kwangju);
+        System.out.println(new Date().getTime());
     }
 
 }

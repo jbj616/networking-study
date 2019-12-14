@@ -2,11 +2,11 @@ package udp;
 
 import java.io.IOException;
 import java.io.InterruptedIOException;
-import java.io.UnsupportedEncodingException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.SocketException;
+import java.util.Arrays;
 
 public class UDPPoke {
 
@@ -40,44 +40,12 @@ public class UDPPoke {
             socket.receive(incoming);
             int numBytes = incoming.getLength();
 
-            System.arraycopy(incoming.getData(), 0, response, 0, numBytes);
+            response = Arrays.copyOf(incoming.getData(), numBytes);
         }catch (InterruptedIOException e){
-
+            e.printStackTrace();
         }
 
         return response;
-    }
-
-    public static void main(String[] args) {
-        InetAddress host = null;
-        int port = 0;
-
-        try{
-            host = InetAddress.getByName("localhost");
-            port = 13;
-        }catch (Exception e){
-
-        }
-
-        try{
-            UDPPoke poke = new UDPPoke(host, port);
-            byte[] response = poke.poke();
-            if(response == null){
-                System.out.println("no response");
-                return;
-            }
-
-            String result = "";
-            try{
-                result = new String(response, "UTF-8");
-            }catch (UnsupportedEncodingException e){
-                result = new String(response, "8859_1")   ;
-            }
-            System.out.println(result);
-        }catch (Exception e){
-
-        }
-
 
     }
 }

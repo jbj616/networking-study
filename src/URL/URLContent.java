@@ -9,6 +9,8 @@ public class URLContent {
         URL u = new URL("https://naver.com");
         Object o = u.getContent();
         System.out.println("I got a " + o.getClass().getName());
+
+        System.out.println(u.toExternalForm());
     }
 
 }

@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.InterruptedIOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
@@ -59,7 +58,6 @@ class InputThread extends Thread {
     InputStream in;
 
     public InputThread(InputStream in) {
-        System.out.println(314);
         this.in = in;
     }
 
@@ -75,12 +73,15 @@ class InputThread extends Thread {
 // output thread closed the
         } catch (IOException ex) {
             System.err.println(ex);
+        }finally {
+            try {
+                in.close();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
         }
-        try {
-            in.close();
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        }
+
+
     }
 }
 
@@ -89,7 +90,6 @@ class OutputThread extends Thread {
     private Writer out;
 
     public OutputThread(OutputStream out) {
-        System.out.println(3221);
         this.out = new OutputStreamWriter(out);
     }
 
@@ -98,7 +98,6 @@ class OutputThread extends Thread {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         try {
             line = in.readLine();
-            System.out.println(line);
             while (!(line.equals("."))) {
                 out.write(line + "\r\n");
                 out.flush();

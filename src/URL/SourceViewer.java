@@ -11,17 +11,16 @@ public class SourceViewer {
     public static void main(String[] args) {
         InputStream in = null;
 
-        try{
+        try {
             URL u = new URL("https://www.naver.com");
             in = u.openStream();
 
-            in = new BufferedInputStream(in);
-            Reader r = new InputStreamReader(in);
-            int c;
-            while ((c = r.read())!=-1){
+            Reader reader = new InputStreamReader(new BufferedInputStream(in));
+            int c = reader.read();
+            while ((c = reader.read()) != -1) {
                 System.out.print((char)c);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

@@ -5,7 +5,7 @@ import java.net.URL;
 public class URLSplitter {
 
     public static void main(String[] args) throws Exception{
-        URL u = new URL("https://www.google.com/search?q=apple&rlz=1C5CHFA_enKR834KR834&oq=apple&aqs=chrome..69i57j35i39j0j69i60l2j69i61.796j0j9&sourceid=chrome&ie=UTF-8");
+        URL u = new URL("https://jbj22:212@wjff.co.kr:8080/fjkd/fd.html");
         System.out.println("this URL is "+u);
         System.out.println("The scheme is "+u.getProtocol());
         System.out.println("The user info is "+u.getUserInfo());
@@ -15,8 +15,9 @@ public class URLSplitter {
             int atSign = host.indexOf('@');
             if(atSign!=-1){
                 host = host.substring(atSign+1);
-                System.out.println("The host is "+host);
+
             }
+            System.out.println("The host is "+host);
         }else{
             System.out.println("The host is null");
         }
@@ -25,6 +26,7 @@ public class URLSplitter {
         System.out.println("The path is "+u.getPath());
         System.out.println("The ref is "+u.getRef());
         System.out.println("The query string is "+u.getQuery());
+        System.out.println(u.getAuthority());
     }
 
 }
